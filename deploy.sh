@@ -1,3 +1,5 @@
+sudo chmod +x gradlew
+sudo chmod +x ./gradlew
 sudo docker-compose -p ofbiz -f docker-compose-databases.yml up -d
 sudo docker-compose -p ofbiz -f docker-compose-databases.yml scale worker=5
 sudo docker-compose -f docker-compose-databases.yml restart master
